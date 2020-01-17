@@ -2,7 +2,7 @@ FROM alpine:3.11.2
 
 LABEL maintainer rachid zarouali <xinity77@gmail.com>
 
-ENV KUBECTL_VERS=1.17 \
+ENV KUBECTL_VERS=v1.17.1 \
     DOCKER_CLI_VER=19.03.5
 
 RUN addgroup -g 997 docker \
