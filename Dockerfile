@@ -15,7 +15,7 @@ RUN apk add --no-cache curl bash shadow \
     && curl -L https://download.docker.com/linux/static/stable/x86_64/docker-${DOCKER_CLI_VER}.tgz | tar xz docker/docker --strip-components 1 -C /usr/local/bin
 
 COPY docker-entrypoint.sh /usr/local/bin/
-COPY docker-kube.sh /root/.docker/cli-plugins/docker-kube
+COPY docker-kube /root/.docker/cli-plugins/docker-kube
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh /root/.docker/cli-plugins/docker-kube
  
 

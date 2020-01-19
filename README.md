@@ -1,8 +1,8 @@
 # docker-kube:
 a docker plugin to manage a kubernetes cluster with the docker CLI UX
-
+ 
 ## Goal:
-While giving docker and kubernetes training i've seen people struggling switching from the Docker CLI UX to the kubernetes CLI UX.  
+While giving docker and kubernetes training, some people where struggling switching from the Docker CLI UX to the kubernetes CLI UX.  
 
 This docker plugin aims at offering the same UX managing either docker and/or kubernetes resources.
 
